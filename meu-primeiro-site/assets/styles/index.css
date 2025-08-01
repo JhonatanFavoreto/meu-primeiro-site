@@ -11,10 +11,16 @@ body{
 h1, 
 p {
     text-align: center;
+    margin: 10px
 }
 
 header {
-    background-color: black;
-    color:white;
+    background-color: green;
+    color:blue;
     padding: 75px;
+}
+
+main {
+    height: 600px;
+    background-color: yellow;
 }
