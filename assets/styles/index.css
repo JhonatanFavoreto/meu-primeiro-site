@@ -122,3 +122,15 @@ li:hover {
     color: white;
     transform: translateY(-2px);
 }
+
+footer {
+    background-color: rgb(66, 22, 148);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+footerp {
+    font-size: 2rem;
+}
