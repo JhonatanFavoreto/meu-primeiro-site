@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Noto+Serif+Hebrew:wght@100..900&display=swap');
 /* RESET DO CSS */
 * {
     margin: 0;
@@ -6,7 +8,7 @@
 }
 
 body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Noto Serif Hebrew', MedievalSharp, Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -39,10 +41,10 @@ main {
 #meus-hobbies {
     background-color: rgb(255, 255, 255);
     width: 80%;
-    margin-bottom: 16px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
     border-radius: 12px;
+    margin-bottom: 16px;
 }
 
 #titulo-sobre-mim {
@@ -81,4 +83,42 @@ li:hover {
     background-color: rgb(133, 118, 197);
     transform: translateX(5px);
     transition: all 0.3s ease;
+}
+
+#contato {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+#contato h3 {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 35px;
+}
+
+#contato p {
+    text-align: center;
+    font-size: 22px;
+}
+
+#contato a {
+    color: rgb(66, 22, 148);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: 2px solid rgb(66, 22, 148);
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3 ease;
+}
+
+#contato a:hover {
+    background-color: rgb(66, 22, 148);;
+    color: white;
+    transform: translateY(-2px);
 }
